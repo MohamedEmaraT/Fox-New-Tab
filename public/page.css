@@ -1,0 +1,725 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Titillium+Web:wght@200;300;400;600;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background: linear-gradient(to bottom right, #fff, #e6e6e6);
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    font-family: 'Titillium Web',
+    sans-serif;
+    font-weight: 400;
+}
+.logo
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: fit-content;
+    font-family: 'Bree Serif',
+    serif;
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    backdrop-filter: blur(5px);  
+    height: 70vh;  
+    width: 100vw;
+    background-color: #babecabf;
+
+}
+nav
+{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+}
+.SL
+{
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.SL div
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    color: #656f86;
+    
+}
+.SL small
+{
+    margin: 10px;
+}
+.SL img
+{
+    width: 45px;
+}
+.SL > p 
+{
+    font-weight: 600;
+    color: black;
+}
+.logo h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    color: #656f86;
+}
+.download-btn 
+{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+.download-btn ul
+{
+    display: flex;
+    height: 100%;
+    width: 580px;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+.download-btn img {
+        display: none;
+    }
+.download-btn ul li a
+{
+    text-decoration: none;
+    font-size: large;
+    /* color: #7f8493bf; */
+    color: black;
+}
+.download-btn ul li a:hover
+{
+    color: #656f86;
+}
+.download-btn > a {
+    padding: 0.5rem 1.5rem;
+    background-color: rgb(247, 129, 87);
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #1e1e1e;
+    text-decoration: none;
+    border-radius: 2px;
+}
+.hero
+{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+}
+.hero > div
+{
+    height: 100%;
+    width: 48%;
+    display: flex;
+}
+.hero .svg
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero .svg img
+{
+    width: 50%;
+}
+.hero .drop
+{
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: start;
+
+}
+.opt
+{
+    position: relative;
+    height: 100%;
+    width: 20%;
+    cursor: pointer;
+
+}
+.opt ul
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 8rem;
+    position: absolute;
+    height: 0;
+    font-family: 'Bree Serif',
+    serif;
+
+
+}
+.opt:hover ul {
+    height: 12rem;
+    transition-duration: 1s;
+}
+.opt ul li
+{
+    display: block;
+    width: 100%;
+}
+.opt ul li a 
+{
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+.opt ul li a:hover
+{
+    background-color: rgb(247, 129, 87);
+    color: white;
+}
+form
+{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 2px;
+}
+form ul
+{
+    list-style: none;
+    top: 100%;
+    left: 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+                rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    overflow: hidden;
+}
+#selected
+{
+    font-size: 12px;
+    margin-top: 13px;
+    margin-left: 15px;
+}
+form input[type="search"]
+{
+    width: 70%;
+    height: 45px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-family: 'Bree Serif', serif;
+
+}
+form input[type="submit"]
+{
+    height: 90%;
+    width: 20%;
+    border: none;
+    background-color: none;
+    cursor: pointer;
+    background-color: transparent;
+    margin-right: 2px;
+    background-color: rgb(247, 129, 87);
+    font-weight: 700;
+    border-radius: 2px;
+}
+form ul li
+{
+    display: block;
+}
+.hero h1
+{
+    line-height: 40px;
+}
+.why
+{
+    width: 100vw;
+    height: fit-content;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+.why > div
+{
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+
+}
+.why>div:first-child
+{
+    text-align: center;
+    font-family: 'Bree Serif',serif;
+    font-size: 23px;
+    color: #8d9ab9;
+}
+.why > div:last-child
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.why > div:last-child > div
+{
+    height: 23rem;
+    width: 23rem;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px,
+    rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+}
+.why>div:last-child>div img
+{
+    width: 100%;
+}
+.why>div:last-child>div div
+{
+    height: 50%;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+}
+.hero span
+{
+    color: #8d9ab9;
+}
+main
+{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+main .search-engines
+{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+main a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    backdrop-filter: blur(5px);
+    border-radius: 100px;
+    border: 1px solid rgb(247, 129, 87);
+    height: 90%;
+    width: 22%;
+    position: relative;
+    color: #656f86;
+}
+main a > div
+{
+    width: 90%;
+    height: 40%;
+    margin-top: 100px;
+    text-align: center;
+    
+}
+a:hover {
+    transform: scale(1.05);
+}
+
+main a img {
+    width: 150px;
+    position: absolute;
+    top: 2%;
+    border: 1px solid rgb(247, 129, 87);
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(247, 128, 85);
+}
+.add
+{
+    width: 15rem;
+    height: 3rem;
+    outline: none;
+    border-radius: 3px;
+    border: 2px solid rgb(247, 128, 85);
+    background-color: transparent;
+    color: rgb(247, 128, 85);
+    cursor: pointer;
+    font-family: 'Bree Serif', serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.add img
+{
+    width: 20px;
+}
+.add:hover
+{
+    transition-duration: 0.5s;
+    background-color: rgb(247, 128, 85);
+    color: white;
+}
+.search-engines button {
+    margin-top: 1rem;
+    background-color: rgb(247, 129, 87);
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1e1e1e;
+    padding: 0.5rem 2.5rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    position: absolute;
+    bottom: -5%;
+}
+.search-engines button:hover {
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+
+
+.contact {
+    margin-top: 150px;
+    background-color: #f9f9f9;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact form {
+    background: #f6f8ffbf;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f6f8ffbf;
+    border: 1px solid #babecabf;
+    border-radius: 5px;
+}
+
+.contact input[type="submit"] {
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #F78055;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact input[type="submit"]:hover {
+    background-color: black;
+}
+
+#card1-section {
+    width: 80%;
+    margin: auto;
+    height: 200px;
+
+}
+.card1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    margin-top: 150px;
+}
+
+img.lazyload {
+ height: 100%;
+ border-radius: 5px 0 0 5px;
+}
+
+.txtCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding: 25px 50px 25px 50px;
+    height: 100%;
+    width: 100%;
+    border-radius: 0 5px 5px 0;
+    text-overflow:ellipsis  ;
+}
+
+.txtCard h2 {
+    margin-bottom: 5px;
+}
+
+.txtCard p {
+    line-height: 1.6;
+}
+
+
+.why {
+    margin-top: 60px;
+}
+
+@media (max-width: 930px) {
+    .card1 {
+        flex-direction: column;
+
+    }
+
+    .card1 img {
+       margin-bottom: 30px;
+    }    
+    .txtCard h2 {
+        font-size: 20px;
+    }
+
+    .txtCard p {
+        font-size: 14px;
+    }
+}
+
+
+
+@media (min-width: 768px) {
+    #about .ps-lg-5 {
+        padding-left: 3.5rem!important;
+    }
+
+    #about .mt-md-5 {
+        margin-top: 3.5rem!important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 0;
+    }
+
+    .logo {
+        justify-content: flex-start;
+        width: fit-content;
+    }
+
+    .logo img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .logo h1 {
+        font-size: 1.2rem;
+    }
+
+    nav {
+        height: auto;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .download-btn {
+        width: fit-content;
+        position: relative;
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+
+    .download-btn ul {
+        position: absolute;
+        display: none;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        top: 100%;
+        left: -5.5rem;
+        width: 7rem;
+        height: 11rem;
+        background-color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px,
+            rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+    }
+    .download-btn img
+    {
+        display: block;
+    }
+    .download-btn ul li a {
+        font-size: 15px;
+    }
+
+    .hero {
+        flex-direction: column;
+        height: 22rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero>div {
+        width: 100%;
+    }
+
+    .hero .svg {
+       display: none;
+    }
+
+    .hero .drop {
+        align-items: center;
+        text-align: center;
+    }
+    .hero .drop h1
+    {
+        font-size: 25px;
+    }
+    .opt {
+        margin-right: 1rem;
+    }
+
+    form {
+        align-items: center;
+        width: 95%;
+    }
+
+    #selected {
+        margin-bottom: 1rem;
+    }
+ 
+    .why {
+
+        width: 100vw;
+        height: fit-content;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+
+    }
+    .SL p
+    {
+        text-align: center;
+        font-size: 12px;
+    }
+    .SL img
+    {
+        width: 25px;
+    }
+    .SL small
+    {
+        display: none;
+    }
+    main .search-engines
+    {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        position: relative;
+        width: 100%;
+    }
+    main {
+        height: fit-content;
+        display: block;
+
+    }
+    main a {
+        border-radius: 10px;
+        height: 17rem;
+        width: 50%;
+        margin: 10px;
+    }
+    main a>div {
+        margin-top: 10px;
+
+    }
+
+    main a img {
+        width: 80px;
+    }
+    .why > div h1
+    {
+        font-size: 19px;
+    }
+    .why>div:last-child {
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .why>div:last-child>div {
+        height: 18rem;
+        width: 100%;
+        margin-top: 10px;
+
+    }
+
+    .why>div:last-child>div img {
+        width: 100%;
+    }
+
+    .why>div:last-child>div div {
+        height: 50%;
+        width: 100%;
+        background-color: white;
+        text-align: center;
+        padding: 10px;
+    }
+
+}
+
